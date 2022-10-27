@@ -20,3 +20,49 @@
     align-items: center;
     column-gap: 2.7rem;
 }
+
+.nav__item a{
+    text-decoration: none;
+    color: #fff;   
+}
+ 
+.nav__item a:hover{
+    color:#fff;
+}
+.active {
+    color: #e250e5 !important;
+}
+
+.logo h2{
+    background: linear-gradient(-45deg, #e250e5,#4b50e6,#e250e5,#4b50e6);
+    background-size: 100% 100%;
+    background-clip: text;
+    -webkit-text-stroke: 3px transparent;
+    -webkit-text-fill-color: #14141f;
+}
+.nav__right .btn{
+    padding: 7px 25px;
+    border: 1px solid #5142fc;
+    border-radius: 50px;
+}
+
+.nav__right .btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+.nav__right .btn span i {
+    color : #fff;
+}
+
+.nav__right .btn a:hover {
+    color: #fff;
+}
+
+
+.mobile__menu{
+    color: #fff;
+    font-size: 1.3rem;
+    display: none;
+}
