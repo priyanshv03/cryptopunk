@@ -1,0 +1,37 @@
+.single__nft__card {
+    padding: 20px;
+    background: #343444;
+    border-radius: 10px;
+}
+
+.nft__img img{
+    border-radius: 10px;
+}
+
+.nft__img{
+    margin-bottom: 10px;
+}
+
+.nft__title{
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.creator__img{
+    width: 40px;
+    height: 40px;
+}
+
+.creator__info h6{
+    font-size: .8rem;
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 3000;
+}
+
+.creator__info p{
+    font-size: 0.9rem;
+    color: #fff;
+    margin-bottom: 0;
+}
