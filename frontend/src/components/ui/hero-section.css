@@ -19,7 +19,7 @@
 }
 
 .hero__btns{
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
  .explore__btn,
@@ -43,4 +43,16 @@ font-size: 1rem;
  .create__btn a {
     text-decoration: none;
     color: #fff;
+}
+
+.hero__btns button a:hover{
+    color:#fff;
+}
+
+.hero__img{
+     width: 500px;
+     margin-left: auto;
+}
+.hero__img img{
+    border-radius: 17px;
 }

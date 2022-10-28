@@ -2,6 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import './hero-section.css'
+
+import heroImg from '../../assets/images/abc.jpg'
+
 const HeroSection = () => {
   return (
     <>
@@ -31,6 +34,11 @@ const HeroSection = () => {
                     <Link to="/create">Create</Link>
                   </button>
                 </div>
+              </div>
+            </Col>
+            <Col lg='6' md='6'>
+              <div className="hero__img">
+                <img src={heroImg} alt="" className="w-100" />
               </div>
             </Col>
           </Row>
