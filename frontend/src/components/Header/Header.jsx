@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{ useRef, useEffect } from 'react'
 import './header.css'
 import { Container } from "reactstrap";
 
@@ -25,6 +25,9 @@ const NAV__LINKS = [
 ]
 
 const Header = () => {
+
+
+  
   return <header className='header'>
 <Container>
   <div className='navigation'>

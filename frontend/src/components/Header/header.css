@@ -9,6 +9,11 @@
 
 }
 
+.header__shrink{
+    background: #343444;
+    box-shadow: 3px 3px 6px -3px #e250e5;
+}
+
 .navigation{
     display: flex;
     align-items: center;
