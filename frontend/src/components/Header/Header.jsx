@@ -22,13 +22,27 @@ const NAV__LINKS = [
     url:'/contact'
   },
  
-]
+];
 
 const Header = () => {
 
+  const headerRef = useRef(null)
+  useEffect(()=>{
+    window.addEventListener('scroll',()=>{
+      if(document.body.scrollTop>80 || document.documentElement.scrollTop>80 ){
+        headerRef.current.classList.add('header__shrink')
+      }
+      else{
+        headerRef.current.classList.remove('header__shrink')
+      }
+    });
+      return () => {
+        window.removeEventListener('scroll')
+      };
 
-  
-  return <header className='header'>
+  }, []);
+
+  return <header className='header' ref={headerRef}>
 <Container>
   <div className='navigation'>
     <div className='logo'>
