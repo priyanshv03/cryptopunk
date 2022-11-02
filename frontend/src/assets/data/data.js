@@ -111,7 +111,7 @@ export const SELLER__DATA = [
   {
     id: "01",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-    sellerName: "Ryan Carder",
+    sellerName: "Ashish Nishad",
     sellerImg: ava01,
     currentBid: 5.89,
     fbUrl: "#",
@@ -133,7 +133,7 @@ export const SELLER__DATA = [
   {
     id: "03",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-    sellerName: "Ryan Carder",
+    sellerName: "Ashish Nishad",
     sellerImg: ava03,
     currentBid: 5.89,
     fbUrl: "#",
@@ -146,7 +146,7 @@ export const SELLER__DATA = [
 
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
 
-    sellerName: "Ryan Carder",
+    sellerName: "Ashish Nishad",
     sellerImg: ava04,
     currentBid: 5.89,
     fbUrl: "#",
@@ -183,7 +183,7 @@ export const SELLER__DATA = [
   {
     id: "01",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-    sellerName: "Ryan Carder",
+    sellerName: "Ashish Nishad",
     sellerImg: ava01,
     currentBid: 5.89,
     fbUrl: "#",
@@ -205,7 +205,7 @@ export const SELLER__DATA = [
   {
     id: "03",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-    sellerName: "Ryan Carder",
+    sellerName: "Ashish Nishad",
     sellerImg: ava03,
     currentBid: 5.89,
     fbUrl: "#",
@@ -218,7 +218,7 @@ export const SELLER__DATA = [
 
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
 
-    sellerName: "Ryan Carder",
+    sellerName: "Ashish Nishad",
     sellerImg: ava04,
     currentBid: 5.89,
     fbUrl: "#",
